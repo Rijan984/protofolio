@@ -1,0 +1,73 @@
+.home {
+  width: 100%;
+
+  float: left;
+  height: calc(100vh - 60px);
+}
+.home .photo {
+  position: relative;
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+}
+.home .photo img {
+  position: absolute;
+  width: 60%;
+  /* height: calc(100vh - 60px); */
+}
+.home .content {
+  width: 100%;
+  float: left;
+  position: absolute;
+  /* top: 100px; */
+  z-index: -1;
+}
+.home .content h1 {
+  text-align: center;
+  color: #6d3535;
+  font-size: 80px;
+  letter-spacing: 20px;
+  font-family: "Jolly Lodger", cursive;
+}
+.home .icons {
+  position: absolute;
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  padding: 2%;
+  justify-content: center;
+}
+.home .icons .hire {
+  padding: 0.5% 1.5%;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border: 2px solid #000000;
+}
+.home .icons i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+@media screen and (max-width: 1000px) {
+  .home .photo img {
+    width: 100%;
+  }
+  .home .content h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .home .photo img {
+    width: 100%;
+  }
+  .home .content h1 {
+    font-size: 40px;
+    letter-spacing: 10px;
+  }
+}
