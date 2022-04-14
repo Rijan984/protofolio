@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import reactImg from "../../images/webDeve.png";
+import reactImg from "../../images/reactPic.png";
 import "./about.css";
 import { Link } from "react-router-dom";
 import file from "../../files/RijanCV.pdf";

@@ -25,3 +25,11 @@
   color: #472033;
   margin: 20px;
 }
+@media (max-width: 1000px) {
+  .service .content h1 {
+    font-size: 2rem;
+  }
+  .service .icons i {
+    font-size: 30px;
+  }
+}
