@@ -8,7 +8,7 @@ function Nav() {
         <h4>Rijan Shrestha</h4>
       </div>
       <div className="menu">
-        <Link to="/protofolio" className="link">
+        <Link to="/" className="link">
           <span>Home</span>
         </Link>
         <Link to="/projects" className="link">
@@ -27,7 +27,7 @@ function Nav() {
           <i class="fa-solid fa-bars"></i>
         </button>
         <div className="dropdown-content">
-          <Link to="/protofolio" className="link">
+          <Link to="/" className="link">
             <p>Home</p>
           </Link>
           <Link to="/projects" className="link">
