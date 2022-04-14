@@ -177,7 +177,7 @@
 }
 .work-section article.lastSlide {
   transform: translateX(-100%);
-  opacity: 1;
+  opacity: 0.5;
   margin-top: 30px;
 }
 .work-section article.lastSlide img {
@@ -186,7 +186,7 @@
 }
 .work-section article.nextSlide {
   transform: translateX(100%);
-  opacity: 1;
+  opacity: 0.5;
   margin-top: 30px;
 }
 .work-section article.nextSlide img {
