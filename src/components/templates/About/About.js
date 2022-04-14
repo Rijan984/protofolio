@@ -38,14 +38,15 @@ function About() {
           <div className="cv">
             {/* <p> */}
             {/* <span> */}
-            <Link
+            <a
               className="btn btn-primary"
-              to={file}
+              href={file}
+              rel="noopener noreferrer"
               target="_blank"
               download
             >
               Download CV
-            </Link>
+            </a>
             {/* </span> */}
             {/* </p> */}
           </div>
