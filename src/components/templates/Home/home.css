@@ -1,8 +1,9 @@
 .home {
+  position: relative;
   width: 100%;
 
   float: left;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 60px - 50px);
 }
 .home .photo {
   position: relative;
@@ -15,7 +16,8 @@
 .home .photo img {
   position: absolute;
   width: 60%;
-  /* height: calc(100vh - 60px); */
+  height: calc(100vh - 60px - 50px);
+  object-fit: cover;
 }
 .home .content {
   width: 100%;
@@ -35,6 +37,7 @@
   position: absolute;
   float: left;
   width: 100%;
+  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,15 +47,12 @@
 }
 .home .icons .hire {
   padding: 0.5% 1.5%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   letter-spacing: 2px;
   font-size: 20px;
   border: 2px solid #000000;
 }
-.home .icons i {
-  font-size: 25px;
-  margin: 0 10px;
-}
+
 @media screen and (max-width: 1000px) {
   .home .photo img {
     width: 100%;

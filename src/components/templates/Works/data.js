@@ -29,24 +29,6 @@ const data = [
     link: "https://rijan984.github.io/MCQ/",
     github: "https://github.com/Rijan984/MCQ.git",
   },
-
-  {
-    id: 4,
-    image: MCQ,
-    title: "MCQ",
-    description: "This is the task done using React and Redux.",
-    link: "",
-    github: "",
-  },
-  {
-    id: 5,
-    image: himalayan,
-    title: "Himalayan Java Coffee",
-    description:
-      "This is the task done using HTML and CSS which was given by pagoda lab during the vacancy apply.",
-    link: "",
-    github: "",
-  },
 ];
 
 export default data;

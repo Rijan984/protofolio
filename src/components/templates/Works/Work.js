@@ -41,7 +41,13 @@ function Work() {
       <div className="section-center">
         {projects.map((person, personIndex) => {
           const { id, image, title, description, link, github } = person;
-          let position = "nextSlide";
+          let position = "";
+          if (
+            personIndex === index + 1 ||
+            (index >= projects.length - 1 && personIndex === 0)
+          ) {
+            position = "nextSlide";
+          }
           if (personIndex === index) {
             position = "activeSlide";
           }
@@ -57,21 +63,23 @@ function Work() {
 
               <p className="title">{title}</p>
               <p className="text">{description}</p>
-              {link !== "" && (
-                <a href={link} target="_blank" className="btn btn-primary">
-                  Demo
-                </a>
-              )}
-              {github !== "" && (
-                <a
-                  href={github}
-                  target="_blank"
-                  style={{ marginLeft: "20px" }}
-                  className="btn btn-primary"
-                >
-                  Github link
-                </a>
-              )}
+              <div>
+                {link !== "" && (
+                  <a href={link} target="_blank" className="btn btn-primary">
+                    Demo
+                  </a>
+                )}
+                {github !== "" && (
+                  <a
+                    href={github}
+                    target="_blank"
+                    style={{ marginLeft: "20px" }}
+                    className="btn btn-primary"
+                  >
+                    Github link
+                  </a>
+                )}
+              </div>
             </article>
           );
         })}

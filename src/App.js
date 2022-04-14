@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Work from "./components/templates/Works/Work";
 import About from "./components/templates/About/About";
 import Service from "./components/templates/Services/Service";
+import Footer from "./components/templates/footer/Footer";
 function App() {
   return (
     <Router>
@@ -18,6 +19,9 @@ function App() {
         <Route exact path="/services" element={<Service />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
+      <>
+        <Footer />
+      </>
     </Router>
   );
 }
