@@ -20,10 +20,11 @@ function About() {
               world peaceful. Hi, it’s me ReactJs Developer (Front-end
               developer), searching for the opportunity to share my skills and
               knowledge. Let’s grow together. Keep Smiling, Stay positive.
-              <br />I am highly intrested and passionate about Frontend
-              Development and Web Designing. I am a person who is always seeking
-              for learnig new things and i am a disciplined and hardworking
-              person.
+            </p>
+            <p>
+              I am highly intrested and passionate about Frontend Development
+              and Web Designing. I am a person who is always seeking for learnig
+              new things and i am a disciplined and hardworking person.
             </p>
             <p>
               I love to sing a song and playing a guitar. I would love to go for
