@@ -31,7 +31,7 @@ const data = [
   },
   {
     id: 4,
-    image: "",
+    image: MCQ,
     title: 'Car Rental System',
     description: 'This is the backend project developed using python',
     link: '',
