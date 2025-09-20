@@ -29,6 +29,14 @@ const data = [
     link: 'https://rijan984.github.io/MCQ/',
     github: 'https://github.com/Rijan984/MCQ.git',
   },
+  {
+    id: 4,
+    image: "",
+    title: 'Car Rental System',
+    description: 'This is the backend project developed using python',
+    link: '',
+    github: 'https://github.com/Rijan984/270687905_RijanShrestha_MSE800',
+  },
 ];
 
 export default data;
