@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <a
-        href="https://www.facebook.com/Bathashee/"
+        href="https://www.facebook.com/rijan.ocna"
         target="_blank"
         style={{ color: "black" }}
         rel="noopener noreferrer"
