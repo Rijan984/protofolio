@@ -16,6 +16,11 @@ function About() {
           <h2>About Me</h2>
           <div className="head">
             <p>
+              Its me Rijan Shrestha from Nepal. Hardworking person seeking for opportunity in 
+              webdevelopment. I am full stack developer having experience on ReactJs, Python, HTML, CSS,
+              Bootstrap.
+            </p>
+            {/* <p>
               Once you start to follow the positivity then you will see the
               world peaceful. Hi, it’s me ReactJs Developer (Front-end
               developer), searching for the opportunity to share my skills and
@@ -29,7 +34,7 @@ function About() {
             <p>
               I love to sing a song and playing a guitar. I would love to go for
               hiking on holidays and hanging with friends.
-            </p>
+            </p> */}
           </div>
 
           <div className="skills">
@@ -39,6 +44,7 @@ function About() {
             <span>JS</span>
             <span>Bootstrap</span>
             <span>ReactJs</span>
+            <span>Python</span>
           </div>
           <div className="cv">
             {/* <p> */}
