@@ -141,9 +141,11 @@
 }
 .work-section .prev {
   left: 0;
+  z-index: 2;
 }
 .work-section .next {
   right: 0;
+  z-index: 2;
 }
 @media (min-width: 800px) {
   .work-section .text {
@@ -170,6 +172,7 @@
   height: 500px;
   /* background-color: red; */
   transform: translateX(0);
+  z-index: 1;
 }
 .work-section article.activeSlide img {
   /* height: 300px; */
